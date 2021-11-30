@@ -12,6 +12,8 @@ phases:
       - echo Compiling the Go code...
       # - go build ./lab_01/hello.go
       - make -f lab_01/Makefile
+      - echo  "env goos variable"
+      - echo $GOOS
 
 artifacts:
   files:
